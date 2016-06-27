@@ -16,6 +16,13 @@
   padding: 3.8em 3.8em 3.8em 3.8em;
 }
 
+#troll {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  color: white;
+}
+
 body {
     color: black;
     background-color: white;
