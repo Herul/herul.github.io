@@ -1,8 +1,17 @@
 #main {
   align-content: center;
   align-items: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+  padding: 3.8em 3.8em 3.8em 3.8em;
+}
+
+#sub {
+  align-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 17%;
   position: relative;
   padding: 3.8em 3.8em 3.8em 3.8em;
 }
@@ -90,4 +99,23 @@ body {
 .button6:hover {
     background-color: transparent;
     color: black;
+}
+
+.search {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search:focus {
+    width: 100%;
 }
