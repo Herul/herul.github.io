@@ -15,7 +15,7 @@
     <body>
       <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">The random homepage</a></li>
+          <li class="active"><a href="index.html">The random homepage</a></li>
           <li><a href="home.html">Home</a></li>
           <li><a href="aboutme.html">About me</a></li>
         </ul>
@@ -23,45 +23,33 @@
       <div class="row">
         <div class="container-fluid">
           <div class="col-md-3 myimage">
-            <img src="ressources/random.png">
-          </div>
-<!--        <div class="row">
-          <div class="container-fluid">
-            <div class="col-md-3">
-              <img src="#">
-              <h2><p class="p1main" text-align="center"><strong>CONTACT</strong></p></h2>
-              <br><h4>
-              <p class="p1second" text-align="center">8 rue martenot 35000, RENNES, France</p><br>
-              <p class="p1second" text-align="center">stanislav.heurtault@epitech.eu</p><br>
-              <p class="p1second" text-align="center">06.95.67.22.63</p>
-              <h4><br><br>
-              <h2><p class="p1main" text-align="center"><strong>PROFIL</strong></p></h2>
-              <br><h4>
-              <p class="p1second" text-align="center">Étudiant en école d'ingénieur. Apprend divers langages de programmation, possède une connaissance plus approfondie en C.</p>
-              </h4><br><br>
-              <h2><p class="p1main" text-align="center"><strong>AUTRES ACTIVITÉS</strong></p></h2>
-              <br><h4>
-              <p class="p1second" text-align="center">Membre d'une association de cartes Magic, Jeux vidéos, Culture Nippone.</p>
-              </h4>
-            </div>
-            <div class="col-md-9">
-              <h1><strong><p class="p2head">STANISLAV HEURTAULT</p></strong></h1>
-              <h4><p class="p2head">DÉVELOPPEUR</p></h4>
-              <br><br>
-              <h3><strong><p class="p2main">FORMATION</p></strong></h3>
-              <div class="row">
-                <div class="col-md-2">
-                  <h4><strong><p class="p2formation1">2015 - 2020</p></strong></h4>
-                  <h4><strong><p class="p2formation1">2012 - 2015</p></strong></h4>
-                </div>
-                <div class="col-md-7">
-                  <h4><strong><p class="p2formation2">Epitech Rennes</p></strong></h4>
-                  <h4><p class="p2formation2">Dîplome d'expert en informatique</p></h4>
-                  <h4><p class="p2formation2">Groupe IONIS</p></h4>
-                </div>
+            <div class="navbar imagecontainer">
+              <img src="ressources/random.png">
+              <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+                <ul class="nav navbar-nav">
+                  <li><a href="#contact" class="btn btn-info binfo" data-toggle="collapse">Contact</a></li>
+                  <li><a href="#contact" class="btn btn-info binfo" data-toggle="collapse">Contact</a></li>
+                  <li><a href="#formation" class="btn btn-info binfo" data-toggle="collapse">Formation</a></li>
+                </ul>
+              </nav>
+              <div id="contact" class="collapse in">
+                <p class="info">Mail: stanislav.heurtault@epitech.eu</p>
+                <p class="info">Téléphone: 06.95.67.22.63</p>
+                <a href="https://github.com/search?utf8=%E2%9C%93&q=herul">
+                  <button class="button" name="github">
+                    <i class="fa fa-github fa-1x" aria-hidden="true"></i>
+                  </button>
+                <a href="https://fr.linkedin.com/in/stanislav-heurtault-501301114">
+                  <button class="button" name="linkedin">
+                    <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
+                  </button>
               </div>
             </div>
           </div>
-        </div> -->
+          <div class="col-md-9 nav">
+            <div id="formation" class="collapse">
+              <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
       </body>
   </html>

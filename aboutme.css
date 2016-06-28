@@ -5,7 +5,20 @@ body {
 }
 
 .myimage {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imagecontainer {
   background-color:rgba(27, 190, 28, 0.66);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.infocontainer {
+  background-color:rgba(25, 214, 169, 0.66);
   align-content: center;
   align-items: center;
   text-align: center;
@@ -15,26 +28,31 @@ p {
   color: white;
 }
 
-.p1main {
-  align-items: center;
-  align-content: center;
-  text-align: center;
+.info {
+  color: black;
 }
 
-.p1second {
-  align-items: center;
-  align-content: center;
-  text-align: center;
+.what {
+  position: absolute;
+  margin-left: 0%;
 }
 
-.p2head {
-  align-items: center;
-  align-content: center;
-  font-size: 200%;
+.binfo {
+  color: black;
+  background-color: black;
+  border: none;
 }
 
-.p2main {
-}
-
-.p2formation1 {
+.button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 7%;
+    height: 7%;
 }
