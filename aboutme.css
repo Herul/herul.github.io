@@ -24,12 +24,46 @@ body {
   text-align: center;
 }
 
+.dformation {
+  background-color:rgba(25, 214, 169, 0.66);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dcompetences {
+  background-color:rgba(25, 214, 169, 0.66);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dqualites {
+  background-color:rgba(25, 214, 169, 0.66);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 p {
   color: white;
 }
 
 .info {
   color: black;
+}
+
+.linfo {
+  color: black;
+  font-size: 135%;
+  font-family: 'Courier New', sans-serif;
+}
+
+.pinfo {
+  color: blue;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: Garamond, sans-serif;
 }
 
 .what {
@@ -53,6 +87,6 @@ p {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 7%;
-    height: 7%;
+    width: 15%;
+    height: 15%;
 }
