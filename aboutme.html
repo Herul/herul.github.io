@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Random home page</title>
+      <title>About me</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="aboutme.css">
       <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -13,32 +13,28 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+      <nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">The random homepage</a></li>
           <li><a href="home.html">Home</a></li>
           <li><a href="aboutme.html">About me</a></li>
+          <li><a href="#contact" class="btn btn-info binfo" data-toggle="collapse">Contact</a></li>
+          <li><a href="#formation" class="btn btn-info binfo" data-toggle="collapse">Formation</a></li>
+          <li><a href="#competences" class="btn btn-info binfo" data-toggle="collapse">Compétences</a></li>
+          <li><a href="#qualites" class="btn btn-info binfo" data-toggle="collapse">Qualités</a></li>
         </ul>
       </nav>
-      <div class="row">
+      <div class="row fcontainer">
         <div class="container-fluid">
           <div class="col-md-3 myimage">
             <div class="navbar imagecontainer">
               <img src="ressources/random.png">
-              <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-                <ul class="nav navbar-nav">
-                  <li><a href="#contact" class="btn btn-info binfo" data-toggle="collapse">Contact</a></li>
-                  <li><a href="#formation" class="btn btn-info binfo" data-toggle="collapse">Formation</a></li>
-                  <li><a href="#competences" class="btn btn-info binfo" data-toggle="collapse">Compétences</a></li>
-                  <li><a href="#qualites" class="btn btn-info binfo" data-toggle="collapse">Qualités</a></li>
-                </ul>
-              </nav>
               <div id="contact" class="collapse in">
                 <p class="info">Mail: stanislav.heurtault@epitech.eu</p>
                 <p class="info">Téléphone: 06.95.67.22.63</p>
                 <a href="https://github.com/search?utf8=%E2%9C%93&q=herul">
                   <button class="btn btn-default" name="github">
-                    <i class="fa fa-github fa-1x" aria-hidden="true"></i>
+                    <i class="fa fa-github fa-1x btn-link" aria-hidden="true"></i>
                   </button>
                 </a>
                 <a href="https://fr.linkedin.com/in/stanislav-heurtault-501301114">
@@ -50,22 +46,28 @@
             </div>
           </div>
           <div class="col-md-9 nav">
-            <div id="formation" class="collapse dformation navbar">
-              <p class="pinfo">FORMATION
-              <p class="linfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div id="formation" class="collapse mformation navbar">
+              <div class="dformation navbar">
+                <p class="minfo">FORMATIONS</p>
+                <p class="linfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
             </div>
-            <div id="competences" class="collapse dcompetences navbar">
-              <p class="pinfo">COMPÉTENCES</p>
-              <p class="linfo">Compétences avancées en langage de programmation C</p>
-              <p class="linfo">Connaissances basiques en php, c# et HTML + CSS</p>
-              <p class="linfo">Anglais - TOEIC 840.</p>
+            <div id="competences" class="collapse mcompetences navbar">
+              <div class="dcompetences navbar">
+                <p class="minfo">COMPÉTENCES</p>
+                <p class="linfo">Compétences avancées en langage de programmation C</p>
+                <p class="linfo">Connaissances basiques en php, c# et HTML + CSS</p>
+                <p class="linfo">Anglais - TOEIC 840.</p>
+              </div>
             </div>
-            <div id="qualites" class="collapse dqualites navbar">
-              <p class="pinfo">QUALITÉS</p>
-              <p class="linfo">Sait s'investir dans des projets personnels et professionnels.</p>
-              <p class="linfo">Sait s'adapter à son environnement de travail.</p>
-              <p class="linfo">Cherche avec passion à appronfondir ses connaissances en ce qui concerne la programmation et les divers langages de programmation.</p>
-              <p class="linfo">Privilégie rendre un travail avec le moins de défauts possible plutôt que de rendre un travail graphique mais avec des défauts apparents.</p>
+            <div id="qualites" class="collapse mqualites navbar">
+              <div class="dqualites navbar">
+                <p class="minfo">QUALITÉS</p>
+                <p class="linfo">Sait s'investir dans des projets personnels et professionnels.</p>
+                <p class="linfo">Sait s'adapter à son environnement de travail.</p>
+                <p class="linfo">Cherche avec passion à appronfondir ses connaissances en ce qui concerne la programmation et les divers langages de programmation.</p>
+                <p class="linfo">Privilégie rendre un travail avec le moins de défauts possible plutôt que de rendre un travail graphique mais avec des défauts apparents.</p>
+              </div>
             </div>
           </div>
       </body>

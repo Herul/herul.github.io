@@ -1,7 +1,16 @@
 body {
     color: black;
     background-color: white;
-/*    background-image: url("ressources/aboutme.jpg");*/
+    background-image: url("ressources/aboutme.jpg");
+    overflow: scroll;
+}
+
+.fcontainer {
+  padding-top: 5em;
+}
+
+.navbar-nav {
+  position:sticky;
 }
 
 .myimage {
@@ -25,21 +34,52 @@ body {
 }
 
 .dformation {
-  background-color:rgba(25, 214, 169, 0.66);
   align-content: center;
   align-items: center;
   text-align: center;
+}
+
+.mformation {
+  background-color: rgba(20, 96, 175, 0.65);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .dcompetences {
-  background-color:rgba(25, 214, 169, 0.66);
   align-content: center;
   align-items: center;
   text-align: center;
 }
 
+.mcompetences {
+  background-color: rgba(20, 96, 175, 0.65);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
 .dqualites {
-  background-color:rgba(25, 214, 169, 0.66);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mqualites {
+  background-color: rgba(20, 96, 175, 0.65);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.mtitle {
+  background-color: rgba(255, 255, 255, 0);
   align-content: center;
   align-items: center;
   text-align: center;
@@ -50,20 +90,20 @@ p {
 }
 
 .info {
-  color: black;
+  color: white;
+  font-size: 115%;
 }
 
 .linfo {
-  color: black;
-  font-size: 135%;
+  color: white;
+  font-size: 115%;
   font-family: 'Courier New', sans-serif;
 }
 
-.pinfo {
-  color: blue;
-  font-size: 300%;
-  font-weight: bold;
-  font-family: Garamond, sans-serif;
+.minfo {
+  color: white;
+  font-size: 175%;
+  font-family: Tahoma, sans-serif;
 }
 
 .what {
@@ -77,7 +117,7 @@ p {
   border: none;
 }
 
-.button {
+.btn-primary {
     border: none;
     text-align: center;
     text-decoration: none;
@@ -87,6 +127,10 @@ p {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 15%;
-    height: 15%;
+    width: 40%;
+    height: 5%;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: Garamond, sans-serif;
+    background-color: rgba(55, 160, 212, 0.81);
 }
