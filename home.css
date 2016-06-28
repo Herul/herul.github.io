@@ -35,7 +35,7 @@
 body {
     color: black;
     background-color: white;
-    background-image: url("/ressources/wallpaper.jpg");
+    background-image: url("ressources/wallpaper.jpg");
 }
 
 .button {
@@ -124,7 +124,7 @@ body {
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('/ressources/searchicon.png');
+    background-image: url('ressources/searchicon.png');
     background-position: 5px 3px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
