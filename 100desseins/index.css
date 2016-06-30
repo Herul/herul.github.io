@@ -1,0 +1,38 @@
+#right_column {
+  position: relative;
+  margin-right: 0%;
+}
+
+.i_index  {
+  margin-top: 7%;
+  position: relative;
+}
+
+.test {
+  margin-right: 0%;
+}
+
+.myimage {
+  background-position: bottom;
+  background-color: rgba(213, 45, 16, 0.74);
+  text-align: center;
+}
+
+.panel-body {
+  color: rgb(210, 16, 16);
+  background-color: rgba(255, 255, 255, 0.53);
+}
+
+.panel-info>.panel-heading {
+  background-color: rgba(0, 171, 255, 0.47);
+  color: rgb(255, 255, 255);
+}
+
+.panel-info>.panel-body {
+  background-color: rgba(0, 0, 0, 0.79);
+  color: rgb(255, 255, 255);
+}
+
+.panel-info {
+  background-color: rgba(255, 255, 255, 0);
+}
